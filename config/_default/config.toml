@@ -1,71 +1,142 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
-# Title of your site
-title = "Academic"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "JB Statistical Consultancy"
+theme = "meghna-hugo"
+summaryLength = 10
 
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Enter a copyright notice to display in the site footer.
-# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
-
-############################
-## Advanced options below ##
-############################
-
-# Name of Academic theme folder in `themes/`.
-theme = "academic"
-
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
-
-paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
-
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
-
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
-
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
-
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
-
-# Taxonomies.
 [taxonomies]
-  tag = "tags"
+  author = "author"
   category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Us"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Service"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Portfolio"
+    URL = "portfolio"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "our-team"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Pricing"
+    URL = "pricing"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logosss.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-areana.jpg"
+    icon = ""
+    heading = "Make Decisions Through Data"
+    content= " “Statistics cannot be any smarter than the people who use them. And in some cases, they can make smart people do dumb things.” ― Charles Wheelan, Naked Statistics: Stripping the Dread from the Data"
+    btn = true
+    btnText="Explore Us"
+    btnURL="#services"
+ 
+
+
+  #  call to action
+    [params.cta]
+    enable = false
+    title = "Great Design & Incredible Features"
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    btnURL = "#"
+    btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = false
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "JB Statistical Consultancy (ABN 20 285 258 867)"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+  #      [[params.footer.socialIcon]]
+   #     icon = "tf-ion-social-facebook"
+    #    url = "#"
+
+    #    [[params.footer.socialIcon]]
+     #   icon = "tf-ion-social-twitter"
+      #  url = "#"
+
+     #   [[params.footer.socialIcon]]
+       # icon = "tf-ion-social-google-outline"
+        #url = "#"
+
+      #  [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-youtube"
+      #  url = "#"
+
+       # [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-linkedin"
+      #  url = "#"
+
+      #  [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-dribbble-outline"
+      #  url = "#"
+
+       # [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-pinterest-outline"
+      #  url = "#"
+        
+# blogdown:::serve_site()
