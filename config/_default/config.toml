@@ -1,7 +1,8 @@
-baseURL = "/"
+
+baseURL = "https://www.jbstatconsultancy.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Meghna"
+title = "JB Statistical Consultancy"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -50,7 +51,7 @@ summaryLength = 10
 # Site params
 [params]
 home= "Home"
-logo = "images/logo.png"
+logo = "images/logosss.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
@@ -62,17 +63,19 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    bgImage = "images/slider/hero-areana.jpg"
+    icon = ""
+    heading = "Make Decisions Through Data"
+    content= " “Statistics cannot be any smarter than the people who use them. And in some cases, they can make smart people do dumb things.” ― Charles Wheelan, Naked Statistics: Stripping the Dread from the Data"
     btn = true
     btnText="Explore Us"
     btnURL="#services"
+ 
 
-    # call to action
+
+  #  call to action
     [params.cta]
-    enable = true
+    enable = false
     title = "Great Design & Incredible Features"
     content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
     btnURL = "#"
@@ -80,7 +83,7 @@ custom_css = ["css/custom.css"]
 
     # counter
     [params.counter]
-    enable = true
+    enable = false
     bgImage = "images/backgrounds/bg-1.jpg"
         [[params.counter.counterItem]]
         title = "Happy Clients"
@@ -104,36 +107,36 @@ custom_css = ["css/custom.css"]
 
     # footer
     [params.footer]
-        copyright = "Themefisher Team"
+        copyright = "JB Statistical Consultancy (ABN 20 285 258 867)"
         copyrightURL = "http://www.themefisher.com"
 
         # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
+  #      [[params.footer.socialIcon]]
+   #     icon = "tf-ion-social-facebook"
+    #    url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
+    #    [[params.footer.socialIcon]]
+     #   icon = "tf-ion-social-twitter"
+      #  url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
+     #   [[params.footer.socialIcon]]
+       # icon = "tf-ion-social-google-outline"
+        #url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
+      #  [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-youtube"
+      #  url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
+       # [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-linkedin"
+      #  url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
+      #  [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-dribbble-outline"
+      #  url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+       # [[params.footer.socialIcon]]
+      #  icon = "tf-ion-social-pinterest-outline"
+      #  url = "#"
         
 # blogdown:::serve_site()
