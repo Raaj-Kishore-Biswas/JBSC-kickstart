@@ -1,0 +1,27 @@
+enable : true
+heading : Our
+headingSpan : Skills
+title : Our team is skilled in wide range of analytical tools. 
+content : We will tackle you research questions based on the plethora of expertise from our team. Our software skills include, not limited to R, Python, MATLAB, SPSS, STATA, SAS and EViews. 
+image : images/about/sunrise_newcastle.jpg
+
+skillItem :
+  - itemNumber : 01-
+    itemName :  Statistical Modelling and interpretation
+    itemPercent : 90%
+    
+  - itemNumber : 02-
+    itemName :  Research Design 
+    itemPercent : 85%
+    
+  - itemNumber : 03-
+    itemName :  Case Study and Reporting
+    itemPercent : 70%
+    
+  - itemNumber : 04-
+    itemName :  Statistical Software Training
+    itemPercent : 75%
+    
+  - itemNumber : 05-
+    itemName :  Publication (Academic)
+    itemPercent : 80%

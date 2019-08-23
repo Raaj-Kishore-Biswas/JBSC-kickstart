@@ -1,0 +1,59 @@
+enable : true
+heading : Our
+headingSpan : Team
+teamMember :
+  - image : images/team/JB_2.jpg
+    name : Jahar Bhowmik
+    designation : CEO/Founder
+    description : Jahar Bhowmik Senior Lecturer, Deputy Chair and Postgraduate Applied Statistics Course Director at Swinburne University of Technology.
+    socialIcon :
+      - icon : tf-ion-person
+        url : "http://www.swinburne.edu.au/health-arts-design/staff/profile/index.php?id=jbhowmik"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/dr-jahar-bhowmik-78788634/"
+#      - icon : tf-ion-social-linkedin
+#        url : "#"
+#      - icon : tf-ion-social-dribbble-outline
+#        url : "#"
+      
+  - image : images/team/RKB.jpg
+    name : Raaj Kishore Biswas
+    designation : Research Associate
+    description : Raaj Kishore Biswas is a PhD scholar at the Transport and Road Safety (TARS) Research Centre in University of New South Wales, Sydney.
+    socialIcon :
+      - icon : tf-ion-person
+        url : "https://www.aviation.unsw.edu.au/about/researchers/mr-raaj-kishore-biswas"
+      - icon : tf-ion-person-add 
+        url : "https://raajbiswas.com/"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/raaj-kishore-biswas/"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/BiswasRaaj"
+      
+#  - image : images/team/team-3.jpg
+ #   name : Michael Jonson
+  #  designation : Web Developer
+   # description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    #socialIcon :
+     # - icon : tf-ion-social-facebook
+      #  url : "#"
+      #- icon : tf-ion-social-twitter
+      #  url : "#"
+      #- icon : tf-ion-social-linkedin
+      #  url : "#"
+      #- icon : tf-ion-social-dribbble-outline
+      #  url : "#"
+      
+ # - image : images/team/team-4.jpg
+  #  name : Mo. Kha. Alamgir
+   # designation : SEO Specialist
+    #description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    #socialIcon :
+    #  - icon : tf-ion-social-facebook
+    #    url : "#"
+    #  - icon : tf-ion-social-twitter
+    #    url : "#"
+    #  - icon : tf-ion-social-linkedin
+    #    url : "#"
+    #  - icon : tf-ion-social-dribbble-outline
+    #    url : "#"

@@ -1,0 +1,15 @@
+enable : true
+heading : About
+headingSpan : Us
+aboutItem : 
+- icon : tf-tools
+  title : Committed
+  content : We listen to your problem and solve them with our statistical expertise. We would explore your datasets and committed to make the best out of them.
+
+- icon : tf-strategy
+  title : Honest
+  content : We will investigate the brutal truth from your data. We will report our findings and provide our suggestions in accordance with research ethics and integrity.
+
+- icon : tf-anchor2
+  title : Systematic
+  content : We are methodological and ensure your project is tackled by the state-of-the-art statistical models. We are committed to finish the task in agreed deadline.

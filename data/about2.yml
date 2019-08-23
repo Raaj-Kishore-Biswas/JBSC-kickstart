@@ -1,0 +1,23 @@
+enable : true
+image : images/about/SSA_Comp_PhD Desk.jpg
+title : We are A Statistical Consultancy Firm.
+description : If you need your data analyzed with a specific target in mind, we are here to help.
+description2 : If you plan to run a study to investigate deep unknowns in your business or organization, we would assist you to design an integrated research. From the experiment, we will find the unknowns that would move your organization forward. With a combined experience of over 30 years, JB Statistical Consultancy is ready to take your challenges.
+  
+aboutItem : 
+ 
+  - icon : tf-pencil2
+    title : Data
+    content : Within the strict human ethical boundaries and safe storage of data, we will collect data.
+    
+  - icon : tf-key 
+    title : Consent and target
+    content : Consent of the data collection is important as well as keeping the target you set in view.
+  
+  - icon : tf-linegraph
+    title : Modelling
+    content : Suitable model is needed to analyze the data and pin-point interpretation.
+    
+  - icon : tf-presentation
+    title : Documentation
+    content : Critical scriting of the findings is the ultimately goal in-line with the initial objective.

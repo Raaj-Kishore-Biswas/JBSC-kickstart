@@ -1,0 +1,21 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact Details
+content : Please contact with us for any of the services you wish to avail. Service price would be tailored based on your demand and budget. We would love to hear from you.
+enable_maps : true
+mapLatitude : -37.892519,
+mapLongitude: 145.150323
+contactDetails :
+  - icon : tf-map-pin
+    info : "37 Sandgate Avenue, Glen Waverly, VIC 3150"
+    
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +61 9214 8367 (Business Hours)"
+    
+  - icon : tf-ion-iphone
+    info : "Mobile: +61 401 626 587"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: jbhowmik@swin.edu.au (preferred)"
+    

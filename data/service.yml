@@ -1,0 +1,27 @@
+enable : true
+heading : Our
+headingSpan : Services
+serviceItem :
+  - icon : tf-globe
+    title : Managing Data
+    content : Methodology of collecting data. Designing questionnaires. Storing data. Informing participants on ethical guidelines.
+    
+  - icon : tf-ion-laptop
+    title : Statistical Modelling
+    content : Developing hypothesis. Analysing based on objectives. Fitting appropriate models. Interpreting and presenting findings.
+    
+  - icon : tf-ion-stats-bars
+    title : Report writing 
+    content : Suitable ways of scripting findings. Visualizing outcomes. Linking hypothesis with the results.  
+    
+  - icon : tf-genius 
+    title : Basic training on statistical packages
+    content : Targeted training on SPSS and R. Limited to Sydney and Melbourne.
+    
+  - icon : tf-ion-settings
+    title : Study design
+    content : Framing research questions. Calculating sample size and power for studies. Variable selection and prioritising. 
+    
+  - icon : tf-notebook9
+    title : Publication
+    content : Academic publication of study findings. Drafting manuscript. Journal selection and submission.
