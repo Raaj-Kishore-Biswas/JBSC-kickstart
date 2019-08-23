@@ -1,7 +1,7 @@
 #install.packages("blogdown")
 #blogdown::install_hugo(force = TRUE)
 
-baseURL = "http://example.org/"
+baseURL = "https://www.jbstatconsultancy.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Meghna"
